@@ -31,9 +31,9 @@ const Card = (props) => {
                 <svg >
                     <use xlinkHref={`${icon}#icon-key`} />
                 </svg>
-                <p className="home__text">${props.price}</p>
+                <p className="home__text">&#x20B9; {props.price}</p>
             </div>
-            <button className="btn home__btn">contact realtor</button>
+            <button className="btn home__btn">Book Now</button>
         </div>
     )
 }

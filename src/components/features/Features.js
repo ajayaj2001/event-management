@@ -1,60 +1,54 @@
 import React from 'react'
+import FeatureCard from './featureCard/FeatureCard'
 import './Features.scss'
-import icon from '../../img/sprite.svg'
+
 const Features = () => {
     return (
         <div className="features">
-            <div className="feature">
-                <svg className="feature__icon">
-                    <use xlinkHref={`${icon}#icon-global`} />
-                </svg>
-                <h4 className="heading-4 heading-4__dark">World's best luxury homes</h4>
-                <p className="feature__text">Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit. Tenetur distinctio necessitatibus
-                pariatur voluptatibus.</p>
-            </div>
-            <div className="feature">
-                <svg className="feature__icon">
-                    <use xlinkHref={`${icon}#icon-trophy`} />
-                </svg>
-                <h4 className="heading-4 heading-4__dark">Only the best properties</h4>
-                <p className="feature__text">Voluptatum mollitia quae. Vero
-                ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.</p>
-            </div>
-            <div className="feature">
-                <svg className="feature__icon">
-                    <use xlinkHref={`${icon}#icon-map-pin`} />
-                </svg>
-                <h4 className="heading-4 heading-4__dark">All homes in in top locations</h4>
-                <p className="feature__text">Tenetur distinctio necessitatibus
-                 pariatur voluptatibus quidem consequatur harum.</p>
-            </div>
-            <div className="feature">
-                <svg className="feature__icon">
-                    <use xlinkHref={`${icon}#icon-key`} />
-                </svg>
-                <h4 className="heading-4 heading-4__dark">New home in one week</h4>
-                <p className="feature__text">Vero ipsum sapiente molestias
-                accusamus rerum. Lorem, ipsum dolor sit amet consectetur
-                 adipisicing elit.</p>
-            </div>
-            <div className="feature">
-                <svg className="feature__icon">
-                    <use xlinkHref={`${icon}#icon-presentation`} />
-                </svg>
-                <h4 className="heading-4 heading-4__dark">Top 1% realtors</h4>
-                <p className="feature__text">Quidem consequatur harum,
-                voluptatum mollitia quae. Tenetur distinctio necessitatibus
-                pariatur voluptatibus.</p>
-            </div>
-            <div className="feature">
-                <svg className="feature__icon">
-                    <use xlinkHref={`${icon}#icon-lock`} />
-                </svg>
-                <h4 className="heading-4 heading-4__dark">Secure payments on nexter</h4>
-                <p className="feature__text">Pariatur voluptatibus quidem consequatur
-                harum, voluptatum mollitia quae..</p>
-            </div>
+            <FeatureCard 
+            heading={'All Over World'} 
+            content={`We have partnership with various event management companies all over the world,so any place any where we
+            can conduct any event's`}
+                icon={'icon-global'}
+                />
+                <FeatureCard 
+            heading={'24/7 CustomerCare Service'} 
+            content={`
+            we have excellent service for our customer ,any time customer can call and clear their doubts without any delay
+            `}
+            icon={'icon-bubbles4'}
+                />
+                <FeatureCard 
+            heading={'Time Management'} 
+            icon={'icon-hour-glass'}
+            content={`
+            WithOut any delay all the events are conducted perfectly with customers satisfaction. we perfectly follow the customers
+            schedules
+            `}
+                />
+                <FeatureCard 
+            heading={'Experiance Speaks'} 
+            content={`
+            As we use highly professioned and experianced workers ,we have perfectly finish the works with full happiness and joyness
+                `}
+                icon={'icon-trophy'}
+                />
+                <FeatureCard 
+            heading={'Keep Up to date'} 
+            content={`
+            We received so many awards for our excellent works, we never tired and keep trying new things to make events modern and creative looks 
+            
+            `}
+                icon={'icon-calendar'}
+                />
+                <FeatureCard 
+            heading={'Always Maintain Quality'} 
+            content={`
+            Our Events are always maintain certain qualities we have seperate team for keep checking quality and improve events move realistic and funfull
+            `}
+                icon={'icon-fire'}
+                />
+                
         </div>
     )
 }

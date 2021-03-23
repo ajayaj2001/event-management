@@ -67,7 +67,7 @@ $bp-small: 37.5em; //600px  600/16
     padding: 1.8rem 3rem;
     cursor: pointer;
     transition: all 0.2s;
-
+outline: none;
     &:hover {
         background-color: $color-primary-dark;
     }

@@ -9,9 +9,12 @@ const Header = () => {
     return (
         <div className="header">
             <img src={logo} alt="logo" className="header__logo" />
-            <h3 className="heading-3">Your own home:</h3>
-            <h1 className="heading-1">The ultimate personal freedom</h1>
-            <button className="btn header__btn">View Our Properties</button>
+            <h3 className="heading-1">WE ARE THE  EVENT  ARCHITECTS / Designers</h3>
+            <h1 className="heading-3">A Goal without a plan is just a wish</h1>
+            <h1 className="heading-4">A Goal without a plan is just a wish</h1>
+            <h1 className="heading-4">A Goal without a plan is just a wish</h1>
+            <h1 className="heading-4">A Goal without a plan is just a wish</h1>
+            <button className="btn header__btn">View Our Events</button>
             <div className="header__seenon-text"> Seen on</div>
             <div className="header__seenon-logo">
                 <img src={bbc} alt="bbc" />

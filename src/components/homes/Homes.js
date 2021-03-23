@@ -10,12 +10,12 @@ import house6 from '../../img/house-6.jpeg';
 const Homes = () => {
     return (
         <div className="homes">
-            <Card image={house1} name={"Beautiful Familiy House"} country={"USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
-            <Card image={house2} name={"Modern Glass Villa"} country={"USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
-            <Card image={house3} name={"Cozy Country House"} country={"USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
-            <Card image={house4} name={"Large Rustical Villa"} country={"USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
-            <Card image={house5} name={"Majestic Palace House"} country={"USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
-            <Card image={house6} name={"Modern Familiy Apartment"} country={"USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
+            <Card image={house1} name={"DJ Party's"} country={"INDIA,USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
+            <Card image={house2} name={"Wedding"} country={"INDIA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
+            <Card image={house3} name={"Culture"} country={"INDIA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
+            <Card image={house4} name={"Workshops / Seminars training"} country={"INDIA,USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
+            <Card image={house5} name={"Birthday Celebration"} country={"INDIA,USA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
+            <Card image={house6} name={"Festival Celebration"} country={"INDIA"} rooms={"5 rooms"} area={"325 m"} price={"1,200,000"} />
         </div>
     )
 }

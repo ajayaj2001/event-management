@@ -17,7 +17,7 @@ import gal14 from '../../img/gal-14.jpeg'
 
 const Gallery = () => {
     return (
-        <div className="gallery">
+        <div className="gallery" id="galleryPage">
             <figure className="gallery__item gallery__item--1">
                 <img src={gal1} alt="gallery" className="gallery__img " />
             </figure>

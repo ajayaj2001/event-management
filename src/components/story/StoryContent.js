@@ -7,7 +7,12 @@ const StoryContent = () => {
             <h2 className="heading-2 heading-2__dark mb-md">&ldquo;We Made Many Beautiful Memories&rdquo;</h2>
             <p className="storyContent__text mb-lg">All the event's we designed are fully worked by highly professional and
             experianced workers, we made thousand's of customers and students happy.Made many unforgottable memories </p>
-            <button className="btn">find your Events</button>
+            <button className="btn"
+            onClick={(e) => {
+                e.preventDefault();
+                window.location.href='#galleryPage';
+                }}
+            >Our Gallery</button>
         </div>
     )
 }

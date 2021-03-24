@@ -9,7 +9,7 @@ import house5 from '../../img/house-5.jpeg';
 import house6 from '../../img/house-6.jpeg';
 const Homes = () => {
     return (
-        <div className="homes">
+        <div className="homes" id="homePage">
             <Card image={house1} name={"DJ Party's"} country={"INDIA,USA"} rooms={"3000 Min"} area={"1000 m"} price={"60,000 Min"} />
             <Card image={house2} name={"Wedding"} country={"INDIA,USA"} rooms={"800 Min"} area={"500 m"} price={"1,00,000 Min"} />
             <Card image={house3} name={"College Cultural"} country={"INDIA"} rooms={"500 Min"} area={"325 m"} price={"20,000 Min"} />

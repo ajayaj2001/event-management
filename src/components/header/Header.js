@@ -9,11 +9,11 @@ const Header = () => {
     return (
         <div className="header">
             <img src={logo} alt="logo" className="header__logo" />
-            <h3 className="heading-1">IMAGINE . DESIGN . CREATE</h3>
-            <h1 className="heading-3">A Goal without a plan is just a wish</h1>
-            <h1 className="heading-4">A Goal without a plan is just a wish</h1>
-            <h1 className="heading-4">A Goal without a plan is just a wish</h1>
-            <h1 className="heading-4">A Goal without a plan is just a wish</h1>
+            <br/>
+            <h1 className="heading-3" >A Full Service</h1>
+            <h3 className="heading-1">EVENT </h3>
+            <h3 className="heading-1"> MANAGEMENT</h3>
+            <h1 className="heading-3">Company</h1>
             <button className="btn header__btn" 
             onClick={(e) => {
                 e.preventDefault();

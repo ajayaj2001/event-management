@@ -45,7 +45,7 @@ const Footer = () => {
                 <li className="nav__item"><a href="#future-development" className="nav__link" onClick={handleClickOpen6}>Come Work With Us!</a></li>
             </ul>
             <p className="copyright">&copy; This website was developed by ajay  ,Mostly developed with advance sass in react js
-            you can inspire from this site but dont copy the design totally..
+            This site is specially developed for kongu college symposiem webwar...
             </p>
 
 <FooterModel1 

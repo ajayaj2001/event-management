@@ -83,7 +83,7 @@ const FooterModel3 = ({open,setOpen,heading,heading1,heading2,heading3,content1,
           </Typography>
           <Typography gutterBottom>
          <h3>{heading3}</h3> 
-{content3}
+          {content3}
           </Typography>
         </DialogContent>
         <DialogActions>

@@ -6,6 +6,7 @@ import Homes from '../homes/Homes'
 import StoryContent from '../story/StoryContent'
 import StoryPicturs from '../story/StoryPicture'
 import Gallery from '../gallery/Gallery'
+
 import './App.scss'
 
 

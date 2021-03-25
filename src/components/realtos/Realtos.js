@@ -1,5 +1,7 @@
 import React from 'react'
+
 import './Realtos.scss'
+
 import realtos1 from '../../img/college-1.png';
 import realtos2 from '../../img/college-2.png';
 import realtos3 from '../../img/college-3.png';

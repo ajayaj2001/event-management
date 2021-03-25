@@ -68,31 +68,33 @@ const FooterModel1 = ({open,setOpen,heading,heading1,heading2,heading3,content1,
     return (
         <div>
             <ThemeProvider theme={theme}>
-            <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
-        <DialogTitle id="customized-dialog-title-1" onClose={handleClose} >
-      <h2>{heading}</h2>  
-        </DialogTitle>
-        <DialogContent dividers>
-          <Typography gutterBottom >
-         <h3>{heading1}</h3> 
-        {content1}
-          </Typography>
-          <Typography gutterBottom>
-         <h3>{heading2}</h3> 
-        {content2}
-          </Typography>
-          <Typography gutterBottom>
-         <h3>{heading3}</h3> 
-{content3}
-          </Typography>
-        </DialogContent>
-        <DialogActions>
-          <Button autoFocus onClick={handleClose} color="primary" >
-           CLOSE
-          </Button>
-        </DialogActions>
-      </Dialog>
-      </ThemeProvider>
+
+              <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+                <DialogTitle id="customized-dialog-title-1" onClose={handleClose} >
+                  <h2>{heading}</h2>  
+                </DialogTitle>
+                <DialogContent dividers>
+                 <Typography gutterBottom >
+                  <h3>{heading1}</h3> 
+                  {content1}
+                 </Typography>
+                <Typography gutterBottom>
+                  <h3>{heading2}</h3> 
+                  {content2}
+                </Typography>
+                <Typography gutterBottom>
+                  <h3>{heading3}</h3> 
+                  {content3}
+                 </Typography>
+               </DialogContent>
+                <DialogActions>
+                  <Button autoFocus onClick={handleClose} color="primary" >
+                   CLOSE
+                </Button>
+              </DialogActions>
+            </Dialog>
+
+         </ThemeProvider>
 
         </div>
     )

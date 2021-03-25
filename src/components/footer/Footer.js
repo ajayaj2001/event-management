@@ -48,164 +48,164 @@ const Footer = () => {
             This site is specially developed for kongu college symposiem webwar...
             </p>
 
-<FooterModel1 
-open={open1} 
+        <FooterModel1 
+        open={open1} 
 
-setOpen={setOpen1} 
+        setOpen={setOpen1} 
 
-heading='TERMS & CONDITION'
+        heading='TERMS & CONDITION'
 
-heading1='Payment'
+        heading1='Payment'
 
-content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
-transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
-to cancel the event if payment has not been received in full.'
+        content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
+        transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
+        to cancel the event if payment has not been received in full.'
 
-heading2='Cancellation'
+        heading2='Cancellation'
 
-content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
-cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
-Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
+        content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
+        cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
+        Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
 
-heading3='Liability for Damage'
+        heading3='Liability for Damage'
 
-content3='
-The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
-clothing or other equipment supplied by the company but limited to the amount of the company’s 
-insurance excess.'
- />
+        content3='
+        The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
+        clothing or other equipment supplied by the company but limited to the amount of the company’s 
+        insurance excess.'
+      />
 
-<FooterModel2 
-open={open2} 
+      <FooterModel2 
+      open={open2} 
 
-setOpen={setOpen2} 
+      setOpen={setOpen2} 
 
-heading='LOCATION'
+      heading='LOCATION'
 
-heading1='Where We Are'
+      heading1='Where We Are'
 
-content1={`  Our Services are avaliable in Mostly all over the world ,USA , UE , INDIA ....`}
+      content1={`  Our Services are avaliable in Mostly all over the world ,USA , UE , INDIA ....`}
 
-heading2='Cancellation'
+      heading2='Cancellation'
 
-content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
-cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
-Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
+      content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
+      cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
+      Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
 
-heading3='Liability for Damage'
+      heading3='Liability for Damage'
 
-content3='
-The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
-clothing or other equipment supplied by the company but limited to the amount of the company’s 
-insurance excess.'
- />
+      content3='
+      The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
+      clothing or other equipment supplied by the company but limited to the amount of the company’s 
+      insurance excess.'
+      />
 
-<FooterModel3
-open={open3} 
+      <FooterModel3
+      open={open3} 
 
-setOpen={setOpen3} 
+      setOpen={setOpen3} 
 
-heading='SPONSERSHIP'
+      heading='SPONSERSHIP'
 
-heading1='Payment'
+      heading1='Payment'
 
-content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
-transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
-to cancel the event if payment has not been received in full.'
+      content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
+      transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
+      to cancel the event if payment has not been received in full.'
 
-heading2='Cancellation'
+      heading2='Cancellation'
 
-content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
-cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
-Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
+      content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
+      cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
+      Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
 
-heading3='Liability for Damage'
+      heading3='Liability for Damage'
 
-content3='
-The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
-clothing or other equipment supplied by the company but limited to the amount of the company’s 
-insurance excess.'
- />
- <FooterModel4 
-open={open4} 
+      content3='
+      The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
+      clothing or other equipment supplied by the company but limited to the amount of the company’s 
+      insurance excess.'
+      />
+      <FooterModel4 
+      open={open4} 
 
-setOpen={setOpen4} 
+      setOpen={setOpen4} 
 
-heading='CONTACT US'
+      heading='CONTACT US'
 
-heading1='Payment'
+      heading1='Payment'
 
-content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
-transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
-to cancel the event if payment has not been received in full.'
+      content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
+      transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
+      to cancel the event if payment has not been received in full.'
 
-heading2='Cancellation'
+      heading2='Cancellation'
 
-content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
-cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
-Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
+      content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
+      cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
+      Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
 
-heading3='Liability for Damage'
+      heading3='Liability for Damage'
 
-content3='
-The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
-clothing or other equipment supplied by the company but limited to the amount of the company’s 
-insurance excess.'
- />
- <FooterModel5 
-open={open5} 
+      content3='
+      The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
+      clothing or other equipment supplied by the company but limited to the amount of the company’s 
+      insurance excess.'
+      />
+      <FooterModel5 
+      open={open5} 
 
-setOpen={setOpen5} 
+      setOpen={setOpen5} 
 
-heading='SUBMIT YOUR EVENT IDEAS'
+      heading='SUBMIT YOUR EVENT IDEAS'
 
-heading1='Payment'
+      heading1='Payment'
 
-content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
-transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
-to cancel the event if payment has not been received in full.'
+      content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
+      transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
+      to cancel the event if payment has not been received in full.'
 
-heading2='Cancellation'
+      heading2='Cancellation'
 
-content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
-cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
-Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
+      content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
+      cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
+      Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
 
-heading3='Liability for Damage'
+      heading3='Liability for Damage'
 
-content3='
-The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
-clothing or other equipment supplied by the company but limited to the amount of the company’s 
-insurance excess.'
- />
- <FooterModel6
-open={open6} 
+      content3='
+      The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
+      clothing or other equipment supplied by the company but limited to the amount of the company’s 
+      insurance excess.'
+      />
+      <FooterModel6
+      open={open6} 
 
-setOpen={setOpen6} 
+      setOpen={setOpen6} 
 
-heading='COME WORK WITH US'
+      heading='COME WORK WITH US'
 
-heading1='Payment'
+      heading1='Payment'
 
-content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
-transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
-to cancel the event if payment has not been received in full.'
+      content1='  Payment in full is due no later than 7 days prior to the event date. This may be made via electronic 
+      transfer, debit card, cheque or credit card (3% fee - 4% on AMEX). The company reserves the right 
+      to cancel the event if payment has not been received in full.'
 
-heading2='Cancellation'
+      heading2='Cancellation'
 
-content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
-cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
-Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
+      content2=' Whether or not payment has been made, if the customer cancels within 4 weeks of the event there is a 100%
+      cancellation fee.Cancellation between 4 weeks and 8 weeks from the event incurs a 50% cancellation fee. 
+      Cancellation more than 8 weeks from the event incurs a 15% cancellation fee.'
 
-heading3='Liability for Damage'
+      heading3='Liability for Damage'
 
-content3='
-The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
-clothing or other equipment supplied by the company but limited to the amount of the company’s 
-insurance excess.'
- />
+      content3='
+      The customer is liable for loss or damage caused by guests whilst on the event to boats, vehicles, 
+      clothing or other equipment supplied by the company but limited to the amount of the company’s 
+      insurance excess.'
+      />
 
-        </div>
+  </div>
     )
 }
 

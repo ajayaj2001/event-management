@@ -57,3 +57,16 @@
         justify-self: start;
     }
 }
+.marginBottomHeading2{
+    margin-left: 4rem;
+    margin-bottom: 2.5rem;
+    @media only screen and (max-width: $bp-medium) {
+        margin-left: 4rem;
+        margin-bottom: 2.5rem;
+    }
+
+}
+
+.marginBottomHeading1{
+    margin-left: 4rem;
+}

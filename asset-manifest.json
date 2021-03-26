@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/event-management/static/css/main.b1c7247b.chunk.css",
+    "main.css": "/event-management/static/css/main.a369eb76.chunk.css",
     "main.js": "/event-management/static/js/main.701123dd.chunk.js",
     "main.js.map": "/event-management/static/js/main.701123dd.chunk.js.map",
     "runtime-main.js": "/event-management/static/js/runtime-main.5d6aa340.js",
@@ -8,7 +8,7 @@
     "static/js/2.a9516d74.chunk.js": "/event-management/static/js/2.a9516d74.chunk.js",
     "static/js/2.a9516d74.chunk.js.map": "/event-management/static/js/2.a9516d74.chunk.js.map",
     "index.html": "/event-management/index.html",
-    "static/css/main.b1c7247b.chunk.css.map": "/event-management/static/css/main.b1c7247b.chunk.css.map",
+    "static/css/main.a369eb76.chunk.css.map": "/event-management/static/css/main.a369eb76.chunk.css.map",
     "static/js/2.a9516d74.chunk.js.LICENSE.txt": "/event-management/static/js/2.a9516d74.chunk.js.LICENSE.txt",
     "static/media/StoryPicture.scss": "/event-management/static/media/back.fde409ee.jpg",
     "static/media/college-1.a6fc02b4.png": "/event-management/static/media/college-1.a6fc02b4.png",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.5d6aa340.js",
     "static/js/2.a9516d74.chunk.js",
-    "static/css/main.b1c7247b.chunk.css",
+    "static/css/main.a369eb76.chunk.css",
     "static/js/main.701123dd.chunk.js"
   ]
 }

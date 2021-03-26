@@ -85,3 +85,9 @@ outline: none;
 .mb-hg {
     margin-bottom: 8rem;
 }
+
+
+::selection {
+    background-color:#c4965e;
+    color: white;
+}

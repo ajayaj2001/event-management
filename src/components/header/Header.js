@@ -11,8 +11,8 @@ const Header = () => {
             <img src={logo} alt="logo" className="header__logo" />
             <br/>
             <h1 className="heading-3" >A Full Service</h1>
-            <h3 className="heading-1 multiColorHeading" style={{marginLeft:'4rem'}}>EVENT </h3>
-            <h3 className="heading-1 multiColor" style={{marginLeft:'4rem',marginBottom:'2.5rem'}}> MANAGEMENT</h3>
+            <h3 className="heading-1 " style={{marginLeft:'4rem'}}>EVENT </h3>
+            <h3 className="heading-1 " style={{marginLeft:'4rem',marginBottom:'2.5rem'}}> MANAGEMENT</h3>
             <h1 className="heading-3">Company</h1>
             <button className="btn header__btn" 
             onClick={(e) => {
